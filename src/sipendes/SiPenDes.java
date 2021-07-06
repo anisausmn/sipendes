@@ -9,7 +9,6 @@ package sipendes;
  *
  * @author fafsdasdfdfs
  */
-import java.sql.Connection;
 public class SiPenDes {
 
     /**

@@ -18,7 +18,7 @@ public class SQLConnection {
     static {
         String url = "jdbc:mysql://localhost:3306/sipendes";
         String user = "root";
-        String pass = "root";
+        String pass = "";
         
         try {
             Class.forName("com.mysql.jdbc.Driver");
