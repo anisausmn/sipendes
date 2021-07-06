@@ -14,6 +14,8 @@ public class Admin {
     public String adminName, adminAddress, adminContact;
     public String adminUsername, adminEmail, adminPassword;
     
+    public Admin() {
+    }
     public Admin(String name, String address, String contact, String username, String email, String password) {
         this.adminName = name;
         this.adminAddress = address;

@@ -9,6 +9,13 @@ package sipendes;
  *
  * @author fafsdasdfdfs
  */
+
+import java.sql.SQLException;
+import java.util.List;
+
+import sipendes.model.*;
+import sipendes.controller.*;
+
 public class SiPenDes {
 
     /**

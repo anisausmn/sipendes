@@ -17,7 +17,9 @@ import sipendes.model.Admin;
 public interface AdminController {
     public int addAdmin(Admin admin)
             throws SQLException;
-    public void delete(int id)
+    public void deleteAdmin(int id)
+            throws SQLException;
+    public Admin getAdmin(int id)
             throws SQLException;
     public List<Admin> getAllAdmin()
             throws SQLException;
