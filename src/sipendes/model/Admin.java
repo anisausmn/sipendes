@@ -12,7 +12,7 @@ package sipendes.model;
 public class Admin {
     int adminId;
     public String adminName, adminAddress, adminContact;
-    private String adminUsername, adminEmail, adminPassword;
+    public String adminUsername, adminEmail, adminPassword;
     
     public Admin(String name, String address, String contact, String username, String email, String password) {
         this.adminName = name;
@@ -55,27 +55,27 @@ public class Admin {
         this.adminContact = newContact;
     }
     
-    private String getAdminUsername() {
+    public String getAdminUsername() {
         return this.adminUsername;
     }
     
-    private void setAdminUsername(String newUsername) {
+    public void setAdminUsername(String newUsername) {
         this.adminUsername = newUsername;
     }
     
-    private String getAdminEmail() {
+    public String getAdminEmail() {
         return this.adminEmail;
     }
     
-    private void setAdminEmail(String newEmail) {
+    public void setAdminEmail(String newEmail) {
         this.adminEmail = newEmail;
     }
     
-    private String getAdminPassword() {
+    public String getAdminPassword() {
         return this.adminPassword;
     }
     
-    private void setAdminPassword(String newPassword) {
+    public void setAdminPassword(String newPassword) {
         this.adminPassword = newPassword;
     }
 }
